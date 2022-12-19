@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a2b8165e51.js" crossorigin="anonymous"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header__logo">
+      <img src="assets/images/logo.svg" alt="Base apparel logo">
+    </header>
+ 
+<main>
+ <picture class="section__container--img">
+      <source srcset="assets/images/hero-desktop.jpg" media="(min-width:47.5em)">
+      <img alt="design pattern" src="assets/images/hero-mobile.jpg">
+  </picture> 
+
+
+  <div class="section__container--content">
+    <h1 class="section__container--title">
+      <span>We're</span> <br>
+      coming 
+      <br>
+      soon
+    </h1>
+    <p class="section__container--desc">
+      Hello fellow shoppers! We're currently building our new fashion store.Add your email below to stay up-to-date with announcements and our launch deals.
+    </p>
+      <form action="" class="form" id="form">
+        <div class="form-control">
+          <input type="email" name="email" id="email" placeholder="Email Address" class="email"  autocomplete="off">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <span class="small">Error Message</span>
+          <button class="btn" type="submit">
+            <img src="assets/images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+      </form>
+  </div>
+</main>
+</div>
+
+<!-- JS -->
+<script src="assets/JS/index.js"></script>
+</body>
+</html>
